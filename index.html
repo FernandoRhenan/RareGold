@@ -13,7 +13,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
     <!--  -->
 
-    <link href="./style.css" rel="stylesheet">
+    <link href="./styles/header.css" rel="stylesheet">
+    <link href="./styles/main.css" rel="stylesheet">
 
     <title>RareGold</title>
 </head>
@@ -21,54 +22,44 @@
 <body>
 
     <header>
-        <div id="headerBar">
-            <img id="logo" src="./images/logo.png">
+        <div class="container-header">
+            <img class="logo" src="./images/logo.png">
+
+            <div class="box-navList">
+                <ul class="navList">
+                    <li>Início</li>
+                    <li>Novidades</li>
+                    <li>Sobre</li>
+                    <li>Contato</li>
+                </ul>
+            </div>
         </div>
     </header>
 
     <main>
 
-        <div id="expositionArea">
-            <div id="area1-expositionArea">
-                <img style="display: none;" src="./images/desert.jpg">
+        <div class="inicio">
+            <img class="strLogo" src="./images/strLogo.png" />
+        </div>
+
+        <div class="container-main">
+
+            <div class="linhaRareGold-main">
+                <div class="box1-txt">
+                    <h1>RareGold</h1>
+                    <h2>Sua saúde e o meio ambiente agradecem!</h2>
+                    <span>Saiba mais</span>
+                </div>
+                <div class="box1-img">
+                    <img class="juntasNBG" src="./images/juntasNBG.png">
+                </div>
             </div>
-            <div id="area2-expositionArea">
-                <div id="img-area2">
-                    <img style="display: none;" src="./images/bottle.png">
-                </div>
-                <div id="txt-area2">
-                    <h1 class="txtGradient">RareGold</h1>
-                    <p>Em uma garrafa de vidro, a RareGold traz o seu mais
-                        novo produto, a água RareGold, obtida das fontes mais ricas e limpas do Brasil,
-                        extraídas das nascentes do interior de Minas Gerais.</p>
-                    <p>
-                        A água agradável e fluída com um sabor puro, sem adição de componentes químicos.
-                        Naturalmente com pH de 7,5, trazendo o equilíbrio ideal.
-                    </p>
 
-                    <p>
-                        Um conjunto minimalista de garrafa e um rótulo biodegradável,
-                        faz o diferencial da marca RareGold, valorizando o que temos de precioso.
-                    </p>
-
-                </div>
+            <div class="novidadeRareGold-main">
+                <span>E tem novidade na área!</span>
             </div>
 
         </div>
-
-
-        <footer id="footer">
-            <div id="info">
-
-                <span class="item-footer">Instagram - reservasRareGold</span>
-                <span class="item-footer">Contato - contato@raregold.com</span>
-                <span class="item-footer">Telefone - (74) 8875-0253</span>
-                <span class="item-footer">Rod. MG-133, km 111 - Fazenda Itu, Itabira - MG, Brasil</span>
-
-            </div>
-            <span id="linkPexels"><a href="https://www.pexels.com/pt-br/foto/palmeira-perto-de-edificio-de-concreto-branco-3286817/">Foto de Mhmd Sedky no Pexels:
-            https://www.pexels.com/pt-br/foto/palmeira-perto-de-edificio-de-concreto-branco-3286817/</a></span>
-        </footer>
     </main>
 
     <script src="./script.js"></script>

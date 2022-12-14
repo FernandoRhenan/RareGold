@@ -1,55 +1,54 @@
-body{
-    background-color: #78c9f1;
+body {
+    background-color: #ffffff;
 }
 
-.inicio{
+.inicio {
     width: 100%;
     height: 100vh;
     background-image: url(../images/desert.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    box-shadow: 0 5px 40px -15px black;
 }
 
-.strLogo{
+.strLogo {
     display: block;
     margin: auto;
     margin-top: 100px;
     padding-top: 100px;
     width: 400px;
-    
+
 }
 
 /*  */
 
-.linhaRareGold-main{
+.linhaRareGold-main {
     display: flex;
     flex-wrap: wrap;
-    margin: 120px 0;
+    padding: 120px 0px;
     justify-content: center;
+    background-color: #12174a;
 }
 
-.box1-txt{
+.box1-txt {
     background-color: #d6d8dd;
     width: 500px;
     height: 500px;
     text-align: center;
+    color: #656565;
 
 }
 
-.box1-txt h1{
+.box1-txt h1 {
     font-size: 50px;
     margin-top: 40px;
-    color: #8a8a8a;
 }
 
-.box1-txt h2{
+.box1-txt h2 {
     margin-top: 50px;
-    color: #8a8a8a;
 }
 
-.box1-txt span{
+.box1-txt span {
     display: block;
     width: 140px;
     height: 50px;
@@ -63,19 +62,19 @@ body{
     cursor: pointer;
 }
 
-.box1-img{
+.box1-img {
     background-image: linear-gradient(to top right, #0a0049, #d6d8dd);
     width: 500px;
     height: 500px;
 }
 
-.juntasNBG{
+.juntasNBG {
     width: 100%;
 }
 
 /*  */
 
-.novidadeRareGold-main{
+.novidadeRareGold-main {
     background-image: url(../images/fundoDegrade.png);
     background-repeat: no-repeat;
     background-size: cover;
@@ -83,14 +82,100 @@ body{
     height: 100vh;
     background-color: #8a8a8a;
 
-    box-shadow: 0 -5px 40px -5px black;
-
     text-align: center;
 }
 
-.novidadeRareGold-main span{
+.novidadeRareGold-title {
     color: white;
     font-size: 60px;
     display: block;
     padding-top: 28px;
+}
+
+.novidadeRareGold-box {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+    width: 65%;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.longBottle {
+    width: 100px;
+    height: 480px;
+}
+
+.novidadeRareGold-txt {
+    background-color: #0a0049;
+    color: white;
+    font-size: 18px;
+
+}
+
+.earthIcon {
+    display: block;
+    width: 40%;
+    margin: auto;
+    margin-top: 70px;
+}
+
+
+.sobre-main-box {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.sobre-main span {
+    text-align: center;
+}
+
+.sobre-main-txt {
+    display: grid;
+    grid-template: auto auto / auto auto;
+    width: 60%;
+    align-items: center;
+    color: #656565;
+}
+
+.sobre-main-txt p {
+    font-size: 18px;
+    padding: 20px;
+}
+
+.sobre-main-txt p::first-letter {
+    padding-left: 15px;
+}
+
+.icon {
+    width: 100px;
+}
+
+.background{
+    background-image:  url(../images/fundoDegradeGrey.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+    width: 100%;
+}
+
+.fonte-main{
+    background-color: #3f3f3f;
+    width: 100%;
+}
+
+.fonte-main h1{
+    text-align: center;
+    color: #909090;
+    font-size: 60px;
+}
+
+.fonte-main-text{
+    font-size: 18px;
+    margin-top: 50px;
+    width: 65%;
+    text-align: center;
+    color: #b1b1b1;
 }

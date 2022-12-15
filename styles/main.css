@@ -144,6 +144,7 @@ body {
     padding: 20px;
 }
 
+
 .sobre-main-txt p::first-letter {
     padding-left: 15px;
 }
@@ -173,9 +174,20 @@ body {
 }
 
 .fonte-main-text{
+    display: grid;
+    grid-template: auto auto / auto auto;
+    width: 60%;
+    align-items: center;
+    gap: 20px;
     font-size: 18px;
+    margin: auto;
     margin-top: 50px;
-    width: 65%;
+    width: 600px;
     text-align: center;
     color: #b1b1b1;
+}
+
+.fonte-main-text p {
+    font-size: 18px;
+    padding: 20px;
 }

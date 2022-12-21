@@ -17,35 +17,36 @@ function enviarForm(e) {
     let msg = document.getElementsByClassName('msg')[0]
 
     let input = document.querySelectorAll('.input')
-    input[0].value = ''
-    input[1].value = ''
-    input[2].value = ''
-    console.log(input)
-   msg.style.opacity = '1'
-   setTimeout(()=>{
-    msg.style.opacity = '0'
-   }, 2000)
+    if (input[0].value != '' && input[1].value != '' & input[2].value != '') {
+        input[0].value = ''
+        input[1].value = ''
+        input[2].value = ''
+        msg.style.opacity = '1'
+        setTimeout(() => {
+            msg.style.opacity = '0'
+        }, 2000)
+    }
 }
 
 function cancelarForm(e) {
     e.preventDefault()
-    
+
     let input = document.querySelectorAll('.input')
     input[0].value = ''
     input[1].value = ''
     input[2].value = ''
 }
 
-function btnLinks(){
+function btnLinks() {
 
     let notFound = document.getElementById('notFoundScreen')
-    
-    for(let i = 0; i < 5; i++){
-        document.querySelectorAll('.rodape-icons')[i].addEventListener('mouseenter', ()=>{
+
+    for (let i = 0; i < 5; i++) {
+        document.querySelectorAll('.rodape-icons')[i].addEventListener('mouseenter', () => {
             notFound.style.display = 'block'
         })
-        document.querySelectorAll('.rodape-icons')[i].addEventListener('mouseleave', ()=>{
+        document.querySelectorAll('.rodape-icons')[i].addEventListener('mouseleave', () => {
             notFound.style.display = 'none'
-          })
+        })
     }
 }
